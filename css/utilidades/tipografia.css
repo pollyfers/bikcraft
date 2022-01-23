@@ -1,0 +1,58 @@
+:root {
+  /*fonts*/
+  --title-font-size: 4rem;
+
+  --title-font: 'Poppins', sans-serif;
+  --body-font: 'Roboto', sans-serif;
+}
+
+/* Fonts Style*/
+
+.title {
+  font: 600 4rem/1.125 var(--title-font);
+}
+
+.title-medium {
+  font: 600 2rem/1.25 var(--title-font);
+}
+
+.headline {
+  font: 500 1.5rem/1.33 var(--body-font);
+}
+
+.text {
+  font: 400 1.5rem/1.5 var(--body-font);
+}
+
+.text-medium {
+  font: 500 1.125rem/1.33 var(--body-font);
+}
+
+.title-items {
+  font: 500 1.5rem/1.5 var(--body-font);
+}
+
+.items-text {
+  font: 400 1rem/1.5 var(--body-font);
+}
+
+/*-- Media Queries --*/
+
+@media (max-width: 1200px) {
+  .title {
+    font-size: 3rem;
+  }
+  .text,
+  .headline {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .title {
+    font-size: 2rem;
+  }
+  .title-medium {
+    font-size: 1.5rem;
+  }
+}

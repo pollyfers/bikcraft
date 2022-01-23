@@ -20,7 +20,7 @@
   <body>
     <!-- Menu -->
     <header class="header-bg">
-      <div class="header">
+      <div class="header container">
         <a href="./"><img src="./img/bikcraft.svg" alt="Bikcraft" /></a>
         <nav aria-label="primaria">
           <ul class="header-menu">
@@ -32,19 +32,106 @@
       </div>
     </header>
     <main class="introducao-bg">
-      <div class="introducao">
+      <div class="introducao container">
         <div class="introducao-conteudo">
-          <h1>Bicicletas feitas sob medida<span>.</span></h1>
-          <p>
+          <h1 class="title">
+            Bicicletas feitas sob medida<span class="dec">.</span>
+          </h1>
+          <p class="text">
             Bicicletas elétricas de alta precisão e qualidade, feitas sob medida
             para o cliente. Explore o mundo na sua velocidade com a Bikcraft.
           </p>
-          <a href="./bicicletas.html">Selecione a sua</a>
+          <a class="botao" href="./bicicletas.html">Selecione a sua</a>
         </div>
         <div>
           <img src="./img/fotos/introducao.jpg" alt="Bicicleta" />
         </div>
       </div>
     </main>
+    <article class="bicicletas-lista">
+      <h2 class="title container">escolha a sua<span class="dec">.</span></h2>
+      <ul>
+        <li>
+          <a href="./bicicletas/magic.html">
+            <img src="./img/bicicletas/magic-home.jpg" alt="Bicicleta Preta" />
+            <h3 class="title-medium">Magic Might</h3>
+            <span class="text-medium">R$2499</span>
+          </a>
+        </li>
+        <li>
+          <a href="./bibicletas/nebula.html">
+            <img src="./img/bicicletas/nimbus-home.jpg" alt="Bicicleta Preta" />
+            <h3 class="title-medium">Nimbus Stark</h3>
+            <span class="text-medium">R$4999</span>
+          </a>
+        </li>
+        <li>
+          <a href="./bicicletas/nebula.html">
+            <img
+              src="./img/bicicletas/nebula-home.jpg"
+              alt="Bicicleta Branca"
+            />
+            <h3 class="title-medium">Nebula Cosmic</h3>
+            <span class="text-medium">R$3999</span>
+          </a>
+        </li>
+      </ul>
+    </article>
+
+    <article class="tecnologia-bg">
+      <div class="tecnologia container">
+        <div class="tecnologia-conteudo">
+          <span class="headline">Tecnologia Avançada</span>
+          <h2 class="title">
+            você escolhe as suas cores e componentes<span class="dec">.</span>
+          </h2>
+          <p class="text">
+            Cada Bikcraft é única e possui a sua identidade. As medidas serão
+            exatas para o seu corpo e altura, garantindo maior conforto e
+            ergonomia na sua pedalada. Você pode também personalizar
+            completamente as suas cores.
+          </p>
+          <a href="/bicicletas.html">Escolha um modelo</a>
+          <div class="tecnologia-vantagens">
+            <div>
+              <img src="./img/icones/eletrica.svg" alt="" />
+              <h3 class="title-items">Motor Elétrico</h3>
+              <p class="items-text">
+                Toda Bikcraft é equipada com um motor elétrico que possui
+                duração de até 120h. A bateria é recarregada com a sua energia
+                gasta ao pedalar.
+              </p>
+            </div>
+
+            <div>
+              <img src="./img/icones/rastreador.svg" alt="" />
+              <h3 class="title-items">Rastreador</h3>
+              <p class="items-text">
+                Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos
+                rastreadores e sistemas anti-furto para garantir o seu sossego.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="tecnologia-imagem">
+          <img src="./img/fotos/tecnologia.jpg" alt="Ferramentas" />
+        </div>
+      </div>
+    </article>
+    <section class="parceiros" aria-label="Nossos Parceiros">
+      <h2 class="title container">
+        nossos parceiros<span class="dec">.</span>
+      </h2>
+      <ul>
+        <li><img src="./img/parceiros/caravan.svg" alt="Caravan" /></li>
+        <li><img src="./img/parceiros/ranek.svg" alt="Ranek" /></li>
+        <li><img src="./img/parceiros/handel.svg" alt="Handel" /></li>
+        <li><img src="./img/parceiros/dogs.svg" alt="Dogs" /></li>
+        <li><img src="./img/parceiros/lescone.svg" alt="LeScone" /></li>
+        <li><img src="./img/parceiros/flexblog.svg" alt="FlexBlog" /></li>
+        <li><img src="./img/parceiros/wildbeast.svg" alt="Wildbeast" /></li>
+        <li><img src="./img/parceiros/surfbot.svg" alt="Surfbot" /></li>
+      </ul>
+    </section>
   </body>
 </html>
