@@ -16,6 +16,10 @@
   font: 600 2rem/1.25 var(--title-font);
 }
 
+.title-items-seg {
+  font: 600 2.25rem/1.33 var(--title-font);
+}
+
 .headline {
   font: 500 1.5rem/1.33 var(--body-font);
 }
@@ -34,6 +38,18 @@
 
 .items-text {
   font: 400 1rem/1.5 var(--body-font);
+}
+
+.small-text {
+  font: 600 0.75rem/1.33 var(--title-font);
+}
+
+.footer-contact {
+  font: 400 1.125rem/1.78 var(--body-font);
+}
+
+.footer-nav {
+  font: 500 1.125rem/2 var(--title-font);
 }
 
 /*-- Media Queries --*/

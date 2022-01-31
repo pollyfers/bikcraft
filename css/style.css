@@ -11,11 +11,16 @@
 @import './home/introducao.css';
 @import './home/tecnologia.css';
 @import './home/parceiros.css';
+@import './home/depoimento.css';
+@import './global/footer.css';
 
 /* Botão */
-
 @import './utilidades/componetes.css';
 
 /* Bicicletas */
 
 @import './bibicletas/bicicletas-lista.css';
+
+/* Seguros */
+
+@import './seguros/seguros.css';
