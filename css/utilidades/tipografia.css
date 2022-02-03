@@ -16,6 +16,10 @@
   font: 600 2rem/1.25 var(--title-font);
 }
 
+.title-terms {
+  font: 600 1.5rem/1.33 var(--title-font);
+}
+
 .title-items-seg {
   font: 600 2.25rem/1.33 var(--title-font);
 }
@@ -46,6 +50,10 @@
 
 .footer-contact {
   font: 400 1.125rem/1.78 var(--body-font);
+}
+
+.term-text {
+  font: 400 1.125rem/1.33 var(--body-font);
 }
 
 .footer-nav {

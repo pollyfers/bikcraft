@@ -43,3 +43,34 @@
     font-size: 1rem;
   }
 }
+
+/* -- Título Internas --*/
+
+.titulo p {
+  text-transform: uppercase;
+  color: var(--text-light-color);
+  margin-bottom: 4px;
+}
+
+.titulo-bg {
+  background: var(--dark-color-second);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.titulo h1 {
+  color: var(--lightest-color);
+}
+
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
+}
